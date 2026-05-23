@@ -490,10 +490,10 @@ export default function Profile() {
   return (
     <>
       <Helmet>
-        <title>الزاوي نيو | El-Zawy New</title>
+        <title>الباشا | Al Basha</title>
         <meta
           name="description"
-          content="الزاوي نيو، مطعم عصري يقدم أفضل المأكولات الشرقية والغربية وتجربة طعام فريدة، مع خدمة عالية الجودة."
+          content="الباشا، يقدم أشهى أنواع الكريب الحلو والحادق بمكونات طازجة وطعم مميز، مع تجربة سريعة وممتعة لعشاق الكريب."
         />
       </Helmet>
       <div

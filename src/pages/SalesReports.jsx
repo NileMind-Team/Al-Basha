@@ -1183,7 +1183,7 @@ const SalesReports = () => {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>تقرير المبيعات - El-Zawy New</title>
+<title>تقرير المبيعات - Al Basha</title>
 <style>
   @media print {
     @page { margin: 0; size: A4 portrait; }
@@ -1336,7 +1336,7 @@ const SalesReports = () => {
 <body>
 
 <div class="print-header">
-  <h1>تقرير المبيعات - El-Zawy New</h1>
+  <h1>تقرير المبيعات - Al Basha</h1>
   <p>نظام إدارة المطاعم</p>
 </div>
 
@@ -1496,7 +1496,7 @@ ${
     /\d/g,
     (d) => toArabicNumbers(d),
   )}</p>
-  <p>El-Zawy New © ${toArabicNumbers(new Date().getFullYear())}</p>
+  <p>Al Basha © ${toArabicNumbers(new Date().getFullYear())}</p>
 </div>
 
 </body>
@@ -1624,10 +1624,10 @@ ${
   return (
     <>
       <Helmet>
-        <title>الزاوي نيو | El-Zawy New</title>
+        <title>الباشا | Al Basha</title>
         <meta
           name="description"
-          content="الزاوي نيو، مطعم عصري يقدم أفضل المأكولات الشرقية والغربية وتجربة طعام فريدة، مع خدمة عالية الجودة."
+          content="الباشا، يقدم أشهى أنواع الكريب الحلو والحادق بمكونات طازجة وطعم مميز، مع تجربة سريعة وممتعة لعشاق الكريب."
         />
       </Helmet>
       <div

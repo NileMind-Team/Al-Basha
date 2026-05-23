@@ -1543,10 +1543,10 @@ export default function Cart() {
   return (
     <>
       <Helmet>
-        <title>الزاوي نيو | El-Zawy New</title>
+        <title>الباشا | Al Basha</title>
         <meta
           name="description"
-          content="الزاوي نيو، مطعم عصري يقدم أفضل المأكولات الشرقية والغربية وتجربة طعام فريدة، مع خدمة عالية الجودة."
+          content="الباشا، يقدم أشهى أنواع الكريب الحلو والحادق بمكونات طازجة وطعم مميز، مع تجربة سريعة وممتعة لعشاق الكريب."
         />
       </Helmet>
       <div className="min-h-screen bg-gradient-to-br from-white via-[#fff5f5] to-[#ffe5e5] dark:from-gray-900 dark:via-gray-800 dark:to-gray-700 px-3 sm:px-4 py-4 sm:py-8 transition-colors duration-300">
