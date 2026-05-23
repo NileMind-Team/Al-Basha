@@ -16,7 +16,7 @@ export default function Header() {
           transition={{ delay: 0.2 }}
           className="flex items-center justify-center gap-2 sm:gap-3 mb-2 sm:mb-3"
         >
-          <div className="p-2 sm:p-3 bg-white/20 backdrop-blur-sm rounded-xl sm:rounded-2xl">
+          <div className="p-2 sm:p-3 bg-white/20 backdrop-blur-sm rounded-xl sm:rounded-2xl border border-white/30">
             <FaUserShield className="text-white text-xl sm:text-2xl md:text-3xl" />
           </div>
           <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-white">

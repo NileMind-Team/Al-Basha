@@ -626,7 +626,7 @@ export default function AdminBranches() {
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           onClick={() => navigate(-1)}
-          className="fixed top-3 sm:top-4 left-3 sm:left-4 z-50 bg-white/80 dark:bg-gray-800/80 backdrop-blur-md hover:bg-[#8E1C04] hover:text-white rounded-full p-2 sm:p-3 text-[#8E1C04] dark:text-gray-300 border border-[#8E1C04] dark:border-gray-600 shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl group"
+          className="fixed top-3 sm:top-4 left-3 sm:left-4 z-50 bg-white/80 dark:bg-gray-800/80 backdrop-blur-md dark:hover:bg-[#8E1C04] hover:bg-[#8E1C04] hover:text-white rounded-full p-2 sm:p-3 text-[#8E1C04] dark:text-gray-300 border border-[#8E1C04] dark:border-gray-600 shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl group"
         >
           <FaArrowLeft
             size={14}

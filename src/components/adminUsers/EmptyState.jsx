@@ -6,15 +6,15 @@ export default function EmptyState({ searchTerm, handleAddNewUser }) {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      className="text-center py-8 sm:py-10 md:py-12 bg-white/80 backdrop-blur-sm rounded-xl sm:rounded-2xl border border-gray-300"
+      className="text-center py-8 sm:py-10 md:py-12 bg-white/80 dark:bg-gray-700/80 backdrop-blur-sm rounded-xl sm:rounded-2xl border border-gray-200 dark:border-gray-600"
     >
-      <FaUserShield className="mx-auto text-3xl sm:text-4xl md:text-5xl text-gray-400 mb-3 sm:mb-4" />
-      <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-600 mb-2 sm:mb-3">
+      <FaUserShield className="mx-auto text-3xl sm:text-4xl md:text-5xl text-gray-400 dark:text-gray-500 mb-3 sm:mb-4" />
+      <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-600 dark:text-gray-400 mb-2 sm:mb-3">
         {searchTerm
           ? "لم يتم العثور على مستخدمين"
           : "لم يتم العثور على مستخدمين"}
       </h3>
-      <p className="text-gray-500 text-sm sm:text-base mb-4 sm:mb-6 max-w-xs sm:max-w-sm mx-auto">
+      <p className="text-gray-500 dark:text-gray-400 text-sm sm:text-base mb-4 sm:mb-6 max-w-xs sm:max-w-sm mx-auto">
         {searchTerm
           ? "حاول تعديل مصطلحات البحث الخاصة بك"
           : "ابدأ بإضافة أول مستخدم لك"}

@@ -426,7 +426,7 @@ export default function CitiesManagement() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => navigate(-1)}
-                className="bg-white dark:bg-gray-800 rounded-full p-2 sm:p-3 text-[#8E1C04] hover:bg-[#8E1C04] hover:text-white transition-all duration-300 shadow-lg border border-gray-300 dark:border-gray-600"
+                className="bg-white dark:bg-gray-800 rounded-full p-2 sm:p-3 text-[#8E1C04] hover:bg-[#8E1C04] hover:text-white transition-all duration-300 shadow-lg border border-gray-300 dark:border-gray-600 dark:hover:bg-[#8E1C04]"
               >
                 <FaArrowLeft className="w-4 h-4 sm:w-5 sm:h-5" />
               </motion.button>

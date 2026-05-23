@@ -2136,7 +2136,7 @@ export default function Cart() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => navigate(-1)}
-                className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-md rounded-full p-2 sm:p-3 text-[#8E1C04] dark:text-gray-300 hover:bg-[#8E1C04] hover:text-white transition-all duration-300 shadow-lg border border-gray-300"
+                className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-md rounded-full p-2 sm:p-3 text-[#8E1C04] dark:text-gray-300 hover:bg-[#8E1C04] hover:text-white transition-all duration-300 shadow-lg border border-gray-300 dark:hover:bg-[#8E1C04]"
               >
                 <FaArrowLeft size={18} className="sm:w-5 sm:h-5" />
               </motion.button>
