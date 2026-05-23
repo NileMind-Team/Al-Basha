@@ -21,7 +21,7 @@ const Footer = () => {
     {
       name: "واتساب",
       icon: <FaWhatsapp />,
-      url: "https://wa.me/201025256954",
+      url: "https://wa.me/201062485133",
       color: "hover:bg-green-600",
     },
   ];
@@ -59,22 +59,20 @@ const Footer = () => {
             </Link>
 
             <p className="text-gray-300 mb-6 leading-relaxed">
-              استمتع بتجربة طعام فريدة مع وصفاتنا الخاصة التي تمزج بين النكهة
-              الأصيلة والمذاق الشهي.
+              استمتع بألذ أنواع الكريب الحلو والحادق المحضّرة بمكونات طازجة
+              ونكهات مميزة تمنحك تجربة لا تُنسى.
             </p>
 
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors">
                 <FaPhone className="text-[#8E1C04] text-sm" />
                 <span className="text-sm" dir="ltr">
-                  +20 106 002 7648
+                  +20 106 780 0017
                 </span>
               </div>
               <div className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors">
                 <FaMapMarkerAlt className="text-[#8E1C04] text-sm" />
-                <span className="text-sm">
-                  الفيوم الحواتم - امام موقف بني سويف
-                </span>
+                <span className="text-sm">قسم اول الفيوم </span>
               </div>
             </div>
           </motion.div>
